@@ -1,0 +1,65 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
+
+blockquote {
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #34495E;
+}
+
+img.responsive-img,
+video.responsive-video {
+  max-width: 100%;
+  height: 500px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.main_color {
+  /*background-color: #104891 !important; */
+  background-color: #34495E !important;
+}
+
+.main_color_as_text{
+  color: #34495E !important;
+}
+
+.comp_color {
+  color: #91744B !important;
+}
+
+.main_text_color {
+  color: #3F4346 !important;
+}
+
+.comp_text_color {
+  color: #DCDFE2 !important;
+}
+
+.comp_background_color {
+  background-color: #91744B !important;
+}
+
+.main_background_color {
+  background-color: #DCDFE2 !important;
+}
